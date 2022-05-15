@@ -5,7 +5,7 @@ main: XackiGiFF\TapToDoNew\Main
 api: 4.2.5
 src-namespace-prefix: XackiGiFF\TapToDoNew
 load: POSTWORLD
-author: Falk
+authors: [Falk, NewPlugin]
 commands:
   t:
     permission: taptodo.command
