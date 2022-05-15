@@ -6,9 +6,9 @@ Changed:
 - Recoding to API 4.0.0
 
 Command:
-  /t add | a
-  /t del | d
-  /t delall | da
-  /t list | ls | l
+-  /t add | a
+-  /t del | d
+-  /t delall | da
+- /t list | ls | l
 
 You can set your macros on any block
