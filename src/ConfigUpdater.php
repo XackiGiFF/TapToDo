@@ -15,7 +15,7 @@ class ConfigUpdater{
         $this->config = $config;
         $this->tapToDo = $tapToDo;
         $this->version = $this->config->get("version", 0);
-        if (!isset($this->version)) {$this->version = 1;}
+        if (!isset($this->version)) {$this->version = 1;} else {$this->version = (int)$this->version;}
     }
     public function checkConfig(){
         if($this->version > ConfigUpdater::CONFIG_VERSION){
