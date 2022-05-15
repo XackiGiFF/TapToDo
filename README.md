@@ -1,7 +1,7 @@
 # TapToDo - v2.4.0
 **New TapToDo for PMMP 4.0 API Minecraft.**
 
-## Features:
+# Features:
 - Simple and user-friendly
 - very easy setup
 - Add macros on block
@@ -10,10 +10,10 @@
 - Work with all block, set on position block
 - Multiworld
 
-## TODOs
+# TODOs
 If you've new ideas and features for this plugin, please open an issue :)
 
-## Bugreport
+# Bugreport
 You've found a Bug?
 - Go to [Issues](https://github.com/XackiGiFF/TapToDo/issues)
 - Click on [New Issue](https://github.com/XackiGiFF/TapToDo/issues/new/choose)
@@ -21,7 +21,7 @@ You've found a Bug?
 - Send Issue
 - Wait, I where answer you
 
-## Commands
+# Commands
 | **Command**                                    | **Description**                  | **Permission**               |
 |------------------------------------------------|----------------------------------|------------------------------|
 | `/t`                                           | Show help.                       | `taptodo.command`            |
@@ -30,7 +30,7 @@ You've found a Bug?
 | <code> /t delall / da </code>                  | Delete all macros.               | `taptodo.command.delall`     |
 | <code> /t list / ls / l </code>                | Show macros on block.            | `taptodo.command.list`       |
 
-## License:
+# License:
 This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
 
 # How To Use
