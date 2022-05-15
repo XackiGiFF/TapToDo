@@ -33,8 +33,8 @@ You've found a Bug?
 ## License:
 This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
 
-## How To Use
-### Variables
+# How To Use
+## Variables
 **If you include one of these in your command it will be replaced by the appropriate value when the command is run, they are case sensitive.**
 | **Variable**              | **Description**                       |
 |---------------------------|---------------------------------------|
@@ -46,7 +46,7 @@ This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk
 | %ip                       | IP of the player                      |
 | %n                        | display name of the player            |
 
-### Behaviour Switches
+## Behaviour Switches
 **These change the command execution behaviour, more will be coming soon. They can be added anywhere in the command as it will be removed when the command is run.**
 | **Variable**              | **Description**                                                                                           |
 |---------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk
 | %op                       | Gives the player running the command OP permissions, these will be revoked after executing the command.   |         
 
 
-### Usage Example:
+## Usage Example:
 **You want to make a block that whenever it is tapped the player who tapped it is killed. You could accomplish this in two ways:**
 **Console with Variable**
 This way the command will be run as the console with the player's name added in when it is run.
