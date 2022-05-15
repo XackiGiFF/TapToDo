@@ -9,7 +9,7 @@ class ConfigUpdater{
     /** @var Main  */
     private $tapToDo;
     /** @var Config  */
-    private $version;
+    private $version = 1;
     const CONFIG_VERSION = 1;
     public function __construct(Config $config, Main $tapToDo){
         $this->config = $config;
