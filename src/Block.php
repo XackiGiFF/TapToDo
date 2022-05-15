@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace XackiGiFF\TapToDoNew;
 
-use JetBrains\PhpStorm\ArrayShape;
+#use JetBrains\PhpStorm\ArrayShape;
 use pocketmine\player\Player;
 use pocketmine\world\Position;
 
