@@ -1,15 +1,34 @@
-# TapToDo
-New TapToDo for PMMP 4.0 API Minecraft.
-This is adaptade for 4.0.0 API from old version.
+# TapToDo - v2.4.0
+** New TapToDo for PMMP 4.0 API Minecraft.**
 
-Changed:
-- remove /tr (taptodo remote)
-- Recoding to API 4.0.0
+###Features:
+- Simple and user-friendly
+- very easy setup
+- Add macros on block
+- Work in game
+- Tap to set command on block
+- Work with all block, set on position block
+- Multiworld
 
-Command:
--  /t add | a
--  /t del | d
--  /t delall | da
-- /t list | ls | l
+### TODOs
+If you've new ideas and features for this plugin, please open an issue :)
 
-You can set your macros on any block position like in old version of plugin
+### Bugreport
+You've found a Bug?
+- Go to [Issues](https://github.com/XackiGiFF/TapToDo/issues)
+- Click on [New Issue](https://github.com/XackiGiFF/TapToDo/issues/new/choose)
+- Write your bug with all information that you have down
+- Send Issue
+- Wait, I where answer you
+
+### Commands
+| **Command**                                        | **Description**                  | **Permission**               |
+|----------------------------------------------------|----------------------------------|------------------------------|
+| `/t`                                               | Show help.                       | `taptodo.command`            |
+| <code>/t <add> | <a> </code>                       | Add a macros.                    | `taptodo.command.add`        |
+| <code>/t <del> | <d></code>                        | Delete a last macros.            | `taptodo.command.del`        |
+| <code>/t <delall> | <da></code>                    | Delete all macros.               | `taptodo.command.delall`     |
+| <code>/t <list> | <ls> | <l> </code>               | Show macros on block.            | `taptodo.command.list`       |
+
+### License:
+This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!

@@ -26,9 +26,6 @@ permissions:
   taptodo.command.delall:
     default: op
     description: 'Clear commands off block'
-  taptodo.command.name:
-    default: op
-    description: 'Name taptodo blocks'
   taptodo.command.list:
     default: op
     description: 'List commands on a block'

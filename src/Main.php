@@ -52,7 +52,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
                                 $player->sendMessage("§d × §a/t add §d- §fAdd a macros");
                                 $player->sendMessage("§d × §a/t del  §d- §fDelete a last macros");
                                 $player->sendMessage("§d × §a/t delall  §d- §fDelete all macros");
-                                $player->sendMessage("§d × §a/t list §d- §fshow macros on block");
+                                $player->sendMessage("§d × §a/t list §d- §fShow macros on block");
                             } else {
                                 $player->sendMessage($this->prefix . TextFormat::RED . "You don`t have permissions!");
                             }
@@ -121,7 +121,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
                         $player->sendMessage("§d × §a/t add §d- §fAdd a macros");
                         $player->sendMessage("§d × §a/t del  §d- §fDelete a last macros");
                         $player->sendMessage("§d × §a/t delall  §d- §fDelete all macros");
-                        $player->sendMessage("§d × §a/t list §d- §fshow macros on block");
+                        $player->sendMessage("§d × §a/t list §d- §fShow macros on block");
                     } else {
                         $player->sendMessage($this->prefix . TextFormat::RED . "You don`t have permissions!");
                     }
