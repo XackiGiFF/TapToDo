@@ -27,7 +27,6 @@ class Main extends PluginBase implements CommandExecutor, Listener{
 
 	public function onEnable() : void{
 		$this->prefix = TextFormat::BLUE . "[" . TextFormat::AQUA . "TapToDo" . TextFormat::BLUE . "] ";
-        $this->getLogger()->info($this->prefix . TextFormat::GREEN . "Loading...");
 		$this->sessions = [];
         $this->blocks = [];
         $this->saveResource("blocks.yml");
@@ -36,7 +35,6 @@ class Main extends PluginBase implements CommandExecutor, Listener{
 		if (!$this->blocksCfg->exists("blocks")) {
             $this->blocksCfg->set("blocks", []);
         }
-        $this->getLogger()->info($this->prefix . TextFormat::GREEN . "Reloading blocks due to world...");
 		$this->parseBlockData();
 
 	}
@@ -256,7 +254,6 @@ class Main extends PluginBase implements CommandExecutor, Listener{
                 $this->getLogger()->warning("Could not load block in world " . $block["world"] . " because that world is not loaded.");
             }
         }
-        $this->getLogger()->info($this->prefix . TextFormat::GREEN . " All blocks [" . $count . "] is loaded");
       }
     }
 
@@ -297,7 +294,6 @@ class Main extends PluginBase implements CommandExecutor, Listener{
      *
      */
 	public function onDisable() : void{
-        $this->getLogger()->info($this->prefix . TextFormat::RED . " Saving blocks...");
         foreach($this->blocks as $block){
             $this->saveBlock($block);
         }
