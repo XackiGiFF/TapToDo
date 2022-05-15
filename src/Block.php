@@ -11,7 +11,7 @@ class Block{
     private $position;
     /** @var mixed */
     private $name;
-    /** @var TapToDo  */
+    /** @var Main  */
     private $plugin;
     public $id;
     public function __construct(Position $position, array $commands, Main $main, $id, $name = false){
