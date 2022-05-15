@@ -8,8 +8,8 @@ class ConfigUpdater{
     private $config;
     /** @var Main  */
     private $tapToDo;
-    /** @var Config  */
-    private $version = 1;
+    /** @var int  */
+    private $version;
     const CONFIG_VERSION = 1;
     public function __construct(Config $config, Main $tapToDo){
         $this->config = $config;
@@ -17,10 +17,10 @@ class ConfigUpdater{
         $this->version = $this->config->get("version", 0);
     }
     public function checkConfig(){
-        if($this->version !== ConfigUpdater::CONFIG_VERSION){
+        if($this->version > ConfigUpdater::CONFIG_VERSION){
             $this->tapToDo->getLogger()->warning("The config loaded is not supported. It may not function correctly. ");
         }
-        while($this->version !== ConfigUpdater::CONFIG_VERSION){
+        while($this->version < ConfigUpdater::CONFIG_VERSION){
             switch($this->version){
                 case 0:
                     $this->tapToDo->getLogger()->info("Updating config from version 0 to 1...");
