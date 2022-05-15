@@ -11,4 +11,4 @@ Command:
 -  /t delall | da
 - /t list | ls | l
 
-You can set your macros on any block
+You can set your macros on any block position like in old version of plugin
