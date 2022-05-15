@@ -56,13 +56,13 @@ This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk
 
 ## Usage Example:
 **You want to make a block that whenever it is tapped the player who tapped it is killed. You could accomplish this in two ways:**
-**Console with Variable**
+###Console with Variable###
 This way the command will be run as the console with the player's name added in when it is run.
 <code> /t add kill %p </code>
 
-**Run as player**
+###Run as player###
 If you want the command to be run as the player (with their permissions), you can add %safe anywhere in the command. If their is a non-OP on your server and they tap a block with the following command attached it won't execute.
 <code> /t add stop%safe </code>
-**Run with OP permission**
+###Run with OP permission###
 You can add %op anywhere in the command to give the player tapping the block temporary OP and execute the command as them. This allows you to do things like. Warning! This will execute from the player allowing them to see command output.
 <code> /t add gamemode 1%op </code>
