@@ -47,7 +47,8 @@ This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk
 | **Variable**              | **Description**                                                                                           |
 |---------------------------|-----------------------------------------------------------------------------------------------------------|
 | %pow                      | Makes the command run as console.                                                                         |
-| %op                       | Gives the player running the command OP permissions, these will be revoked after executing the command.   |         
+| %op                       | Gives the player running the command OP permissions, these will be revoked after executing the command.   |
+| %safe                     | As player                                                                                                 |
 ## Usage Example:
 **You want to make a block that whenever it is tapped the player who tapped it is killed. You could accomplish this in two ways:**
 ### Console with Variable ###
