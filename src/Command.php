@@ -12,7 +12,7 @@ class Command {
     const AS_PLAYER_TYPE = 1;
     const AS_OP_TYPE = 2;
 
-    /** @var  mixed */
+    /** @var mixed */
     private $originalCommand;
     /** @var mixed */
     private $compiledCommand;

@@ -230,10 +230,10 @@ class Main extends PluginBase implements CommandExecutor, Listener{
     }
 
     /**
-     * @var $x
-     * @var $y
-     * @var $z
-     * @var $world
+     * @var mixed $x
+     * @var mixed $y
+     * @var mixed $z
+     * @var mixed $world
      * @return Block
      */
     public function getBlock($x, $y, $z, $world){
@@ -278,7 +278,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
 	
 	/**
      * @param Position $p
-     * @var $cmd
+     * @var mixed $cmd
      * @return Block
      */
     public function addBlock(Position $p, $cmd){
