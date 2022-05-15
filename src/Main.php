@@ -205,20 +205,12 @@ class Main extends PluginBase implements CommandExecutor, Listener{
         }
     }
 
-    /**
-     * @var array $array
-     * @return string
-     */
 	public function array_to_string($array) {
 		ob_start();
 		var_dump($array);
 		return ob_get_clean();
 	}
 
-    /**
-     * @var $string
-     * @return array $arr
-     */
     public function toArray($string) {
         $arr = [
             $string
