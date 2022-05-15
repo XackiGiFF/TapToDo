@@ -1,7 +1,7 @@
 # TapToDo - v2.4.0
-** New TapToDo for PMMP 4.0 API Minecraft.**
+**New TapToDo for PMMP 4.0 API Minecraft.**
 
-###Features:
+### Features:
 - Simple and user-friendly
 - very easy setup
 - Add macros on block
