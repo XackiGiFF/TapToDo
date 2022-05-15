@@ -6,7 +6,7 @@ use pocketmine\utils\Config;
 class ConfigUpdater{
     /** @var Config  */
     private $config;
-    /** @var TapToDo  */
+    /** @var Main  */
     private $tapToDo;
     const CONFIG_VERSION = 1;
     public function __construct(Config $config, Main $tapToDo){
