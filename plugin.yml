@@ -1,6 +1,6 @@
 ---
 name: TapToDo
-version: 2.4.0
+version: 2.4.1
 main: XackiGiFF\TapToDoNew\Main
 api: 4.2.5
 src-namespace-prefix: XackiGiFF\TapToDoNew
