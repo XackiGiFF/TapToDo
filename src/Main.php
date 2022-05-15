@@ -206,7 +206,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
     }
 
     /**
-     * @param $array
+     * @var array $array
      * @return string
      */
 	public function array_to_string($array) {
@@ -216,8 +216,8 @@ class Main extends PluginBase implements CommandExecutor, Listener{
 	}
 
     /**
-     * @param $string
-     * @return (array) $arr
+     * @var $string
+     * @return array $arr
      */
     public function toArray($string) {
         $arr = [
@@ -226,7 +226,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
         return $arr;
     }
     /**
-     * @param $name
+     * @var $name
      * @return Block[]
      */
     public function getBlocksByName($name){
