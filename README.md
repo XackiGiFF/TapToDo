@@ -3,7 +3,7 @@
 
 ### Features:
 - Simple and user-friendly
-- very easy setup
+- Very easy setup
 - Add macros on block
 - Work in game
 - Tap to set command on block
@@ -58,13 +58,13 @@ You've found a Bug?
 - Wait, I where answer you
 
 ### Commands
-| **Command**                                        | **Description**                  | **Permission**               |
-|----------------------------------------------------|----------------------------------|------------------------------|
-| `/t`                                               | Show help.                       | `taptodo.command`            |
-| <code>/t <add> | <a> </code>                       | Add a macros.                    | `taptodo.command.add`        |
-| <code>/t <del> | <d></code>                        | Delete a last macros.            | `taptodo.command.del`        |
-| <code>/t <delall> | <da></code>                    | Delete all macros.               | `taptodo.command.delall`     |
-| <code>/t <list> | <ls> | <l> </code>               | Show macros on block.            | `taptodo.command.list`       |
+| **Command**                                                                | **Description**                  | **Permission**               |
+|----------------------------------------------------------------------------|----------------------------------|------------------------------|
+| `/t`                                                                       | Show help.                       | `taptodo.command`            |
+| <code>/t add / a </code>                                                   | Add a macros.                    | `taptodo.command.add`        |
+| <code>/t del / d</code>                                                    | Delete a last macros.            | `taptodo.command.del`        |
+| <code>/t delall / da</code>                                                | Delete all macros.               | `taptodo.command.delall`     |
+| <code>/t <list> / ls> / l </code>                                          | Show macros on block.            | `taptodo.command.list`       |
 
 ### License:
-This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
+This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, modificated by XackiGiFF!
