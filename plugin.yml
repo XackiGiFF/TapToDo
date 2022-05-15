@@ -1,0 +1,38 @@
+---
+name: TapToDo
+version: 2.4.0
+main: XackiGiFF\TapToDoNew\Main
+api: 4.2.5
+src-namespace-prefix: XackiGiFF\TapToDoNew
+load: POSTWORLD
+author: Falk
+commands:
+  t:
+    permission: taptodo.command
+    description: 'TapToDo command'
+    usage: /t <add <command> | del <command> | delall | list>
+permissions:
+  taptodo:
+    default: op
+    description: 'Top level TapToDo permission'
+  taptodo.command:
+    default: op
+  taptodo.command.add:
+    default: op
+    description: 'Add new commands'
+  taptodo.command.del:
+    default: op
+    description: 'Delete a specific command'
+  taptodo.command.delall:
+    default: op
+    description: 'Clear commands off block'
+  taptodo.command.name:
+    default: op
+    description: 'Name taptodo blocks'
+  taptodo.command.list:
+    default: op
+    description: 'List commands on a block'
+  taptodo.tap:
+    default: true
+    description: 'Use taptodo blocks'
+...
