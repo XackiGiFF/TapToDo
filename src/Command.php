@@ -17,7 +17,7 @@ class Command {
     /** @var mixed */
     private $compiledCommand;
     private $executionMode;
-    /** @var TapToDo  */
+    /** @var Main  */
     private $plugin;
     public function __construct($command, Main $plugin){
         $this->originalCommand = $command;
