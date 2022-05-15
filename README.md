@@ -33,7 +33,7 @@ You've found a Bug?
 ## License:
 This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
 
-### How To Use
+## How To Use
 ### Variables
 **If you include one of these in your command it will be replaced by the appropriate value when the command is run, they are case sensitive.**
 | **Variable**              | **Description**                       |
