@@ -28,7 +28,7 @@ You've found a Bug?
 | <code> /t list / ls / l </code>                | Show macros on block.            | `taptodo.command.list`       |
 
 # License:
-This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
+This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, modificated by XackiGiFF and BlusteryS!
 
 # How To Use
 ## Variables
