@@ -3,7 +3,7 @@
 
 ### Features:
 - Simple and user-friendly
-- very easy setup
+- Very easy setup
 - Add macros on block
 - Work in game
 - Tap to set command on block
