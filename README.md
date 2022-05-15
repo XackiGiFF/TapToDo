@@ -9,7 +9,30 @@
 - Tap to set command on block
 - Work with all block, set on position block
 - Multiworld
- 
+
+### TODOs
+If you've new ideas and features for this plugin, please open an issue :)
+
+### Bugreport
+You've found a Bug?
+- Go to [Issues](https://github.com/XackiGiFF/TapToDo/issues)
+- Click on [New Issue](https://github.com/XackiGiFF/TapToDo/issues/new/choose)
+- Write your bug with all information that you have down
+- Send Issue
+- Wait, I where answer you
+
+### Commands
+| **Command**                                        | **Description**                  | **Permission**               |
+|----------------------------------------------------|----------------------------------|------------------------------|
+| `/t`                                               | Show help.                       | `taptodo.command`            |
+| <code>/t <add> | <a> </code>                       | Add a macros.                    | `taptodo.command.add`        |
+| <code>/t <del> | <d></code>                        | Delete a last macros.            | `taptodo.command.del`        |
+| <code>/t <delall> | <da></code>                    | Delete all macros.               | `taptodo.command.delall`     |
+| <code>/t <list> | <ls> | <l> </code>               | Show macros on block.            | `taptodo.command.list`       |
+
+### License:
+This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
+
 ### How To Use
 ## Variables
 **If you include one of these in your command it will be replaced by the appropriate value when the command is run, they are case sensitive.**
@@ -45,26 +68,3 @@
 ## Run with OP permission
 **You can add %op anywhere in the command to give the player tapping the block temporary OP and execute the command as them. This allows you to do things like. Warning! This will execute from the player allowing them to see command output.**
 <code> /t add gamemode 1%op </code>
-
-### TODOs
-If you've new ideas and features for this plugin, please open an issue :)
-
-### Bugreport
-You've found a Bug?
-- Go to [Issues](https://github.com/XackiGiFF/TapToDo/issues)
-- Click on [New Issue](https://github.com/XackiGiFF/TapToDo/issues/new/choose)
-- Write your bug with all information that you have down
-- Send Issue
-- Wait, I where answer you
-
-### Commands
-| **Command**                                        | **Description**                  | **Permission**               |
-|----------------------------------------------------|----------------------------------|------------------------------|
-| `/t`                                               | Show help.                       | `taptodo.command`            |
-| <code>/t <add> | <a> </code>                       | Add a macros.                    | `taptodo.command.add`        |
-| <code>/t <del> | <d></code>                        | Delete a last macros.            | `taptodo.command.del`        |
-| <code>/t <delall> | <da></code>                    | Delete all macros.               | `taptodo.command.delall`     |
-| <code>/t <list> | <ls> | <l> </code>               | Show macros on block.            | `taptodo.command.list`       |
-
-### License:
-This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk, XackiGiFF modificate!
