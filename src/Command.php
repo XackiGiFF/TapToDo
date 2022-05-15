@@ -39,7 +39,7 @@ class Command {
 		$type = $this->executionMode;
 		$pos = $player->getPosition();
 
-		$command = str_replace(["%p", "%x", "%y", "%z", "%д", "%ip", "%n"], [
+		$command = str_replace(["%p", "%x", "%y", "%z", "%l", "%ip", "%n"], [
 			$player->getName(),
 			(string) $pos->getFloorX(),
 			(string) $pos->getFloorY(),
