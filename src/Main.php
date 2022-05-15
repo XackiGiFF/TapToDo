@@ -218,7 +218,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
         return $arr;
     }
     /**
-     * @var $name
+     * @var mixed $name
      * @return Block[]
      */
     public function getBlocksByName($name){
@@ -230,10 +230,6 @@ class Main extends PluginBase implements CommandExecutor, Listener{
     }
 
     /**
-     * @var mixed $x
-     * @var mixed $y
-     * @var mixed $z
-     * @var mixed $world
      * @return Block
      */
     public function getBlock($x, $y, $z, $world){
