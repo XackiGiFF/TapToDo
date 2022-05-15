@@ -45,7 +45,7 @@ class Main extends PluginBase implements CommandExecutor, Listener{
         switch($command->getName()) {
             case "t":
                 if (isset($args[0])) {
-                    switch($args[0]){
+                    switch($args[0]) {
                         default:
                             if($player->hasPermission("taptodo.command")){
                                 $player->sendMessage($this->prefix . TextFormat::YELLOW . "Help:");
@@ -144,15 +144,13 @@ class Main extends PluginBase implements CommandExecutor, Listener{
                             array_shift($args);
                             $b->addCommand(implode(" ", $args));
                             $event->getPlayer()->sendMessage($this->prefix . TextFormat::GREEN . "Command was added to list.");
-                        }
-                        else{
+                        } else {
                             array_shift($args);
                             $event->getPlayer()->sendMessage($event->getBlock()->getPosition());
                             $this->addBlock($event->getBlock()->getPosition(), implode(" ", $args));
                             $event->getPlayer()->sendMessage($this->prefix . TextFormat::GREEN . "The first command was added.");
                         }
-                    }
-                    else{
+                    } else {
                         $event->getPlayer()->sendMessage($this->prefix . TextFormat::RED . "You need input a command!");
                     }
                     break;
@@ -194,16 +192,14 @@ class Main extends PluginBase implements CommandExecutor, Listener{
                         foreach($b->getCommands() as $cmd){
                             $event->getPlayer()->sendMessage(TextFormat::GREEN . "- " . TextFormat::WHITE . $cmd);
                         }
-                    }
-                    else{
+                    } else {
                         $event->getPlayer()->sendMessage($this->prefix . TextFormat::RED . "Couldn't find command on this block!");
                     }
                     break;
             }
             unset($this->sessions[$event->getPlayer()->getName()]);
-        }
-        else{
-            if(($b = $this->getBlock($event->getBlock()->getPosition(), null, null, null)) instanceof Block && $event->getPlayer()->hasPermission("taptodo.tap")){
+        } else {
+            if(($b = $this->getBlock($event->getBlock()->getPosition(), null, null, null)) instanceof Block && $event->getPlayer()->hasPermission("taptodo.tap")) {
                 $b->executeCommands($event->getPlayer());
             }
         }
