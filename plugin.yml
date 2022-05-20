@@ -1,8 +1,8 @@
 ---
 name: TapToDo
-version: 2.4.1
+version: 2.4.1a
 main: XackiGiFF\TapToDoNew\Main
-api: 4.2.5
+api: 4.0.0
 src-namespace-prefix: XackiGiFF\TapToDoNew
 load: POSTWORLD
 authors: [Falk, NewPlugin]
