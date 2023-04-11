@@ -53,7 +53,7 @@ This plugin is licensed under the [Apache License 2.0](/LICENSE)! Plugin by Falk
 **You want to make a block that whenever it is tapped the player who tapped it is killed. You could accomplish this in two ways:**
 ### Console with Variable ###
 This way the command will be run as the console with the player's name added in when it is run.
-<code> /t add kill %p </code>
+<code> /t add kill%pow %p </code>
 ### Run as player
 If you want the command to be run as the player (with their permissions), you can add %safe anywhere in the command. If their is a non-OP on your server and they tap a block with the following command attached it won't execute.
 <code> /t add stop%safe </code>
