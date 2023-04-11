@@ -8,7 +8,7 @@
 - Work in game
 - Tap to set command on block
 - Work with all block, set on position block
-- Multiworld
+- Multiworld (comming soon, need fix)
 
 # Bugreport
 You've found a Bug?
