@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace XackiGiFF\TapToDoNew;
 
-#use JetBrains\PhpStorm\ArrayShape;
 use pocketmine\player\Player;
 use pocketmine\world\Position;
 
@@ -80,7 +79,6 @@ class Block {
 		return $this->position;
 	}
 
-	#[ArrayShape(['x' => "float|int", 'y' => "float|int", 'z' => "float|int", 'world' => "string", 'commands' => "array", "name" => "bool|mixed|string"])]
 	public function toArray() : array {
 		$arr = [
 			'x' => $this->getPosition()->getX(),
