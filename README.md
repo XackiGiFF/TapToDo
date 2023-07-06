@@ -1,6 +1,6 @@
-# TapToDo - v2.4.2
+# TapToDo - v2.5.0
 
-## New TapToDo for PMMP 4.0 API Minecraft. [![](https://poggit.pmmp.io/shield.state/TapToDo)](https://poggit.pmmp.io/p/TapToDo) [![](https://poggit.pmmp.io/shield.api/TapToDo)](https://poggit.pmmp.io/p/TapToDo) [![](https://poggit.pmmp.io/shield.dl/TapToDo)](https://poggit.pmmp.io/p/TapToDo)
+## New TapToDo for PMMP 5.0.0 API Minecraft. [![](https://poggit.pmmp.io/shield.state/TapToDo)](https://poggit.pmmp.io/p/TapToDo) [![](https://poggit.pmmp.io/shield.api/TapToDo)](https://poggit.pmmp.io/p/TapToDo) [![](https://poggit.pmmp.io/shield.dl/TapToDo)](https://poggit.pmmp.io/p/TapToDo)
 # Features:
 - Simple and user-friendly
 - very easy setup
@@ -8,7 +8,7 @@
 - Work in game
 - Tap to set command on block
 - Work with all block, set on position block
-- Multiworld (comming soon, need fix)
+- Multiworld
 
 # Bugreport
 You've found a Bug?
